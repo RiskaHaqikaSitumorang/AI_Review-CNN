@@ -14,6 +14,7 @@ Convolutional Neural Network (CNN) adalah jenis jaringan saraf tiruan yang digun
 
 Tujuannya adalah melakukan klasifikasi gambar kucing dan anjing. Dataset yang digunakan terdiri dari 8,000 gambar untuk training set (4,000 gambar kucing dan 4,000 gambar anjing) dan 2,000 gambar untuk test set (1,000 gambar kucing dan 1,000 gambar anjing). 
 
+
 ## 📊 Performance Results
 ![Screenshot 2024-11-17 230700](https://github.com/user-attachments/assets/49a4dbae-a140-47cc-9e7d-f97c0f019bb1)
 
