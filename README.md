@@ -19,12 +19,15 @@ Tujuannya adalah melakukan klasifikasi gambar kucing dan anjing. Dataset yang di
 ![image](https://github.com/user-attachments/assets/3098c04d-dd00-48a9-8bfe-9bfab59b58b9)
 
 Kode ini mengimpor beberapa modul yang diperlukan dari TensorFlow Keras. Sequential digunakan untuk membuat model CNN secara berurutan, sedangkan Conv2D, MaxPooling2D, Flatten, dan Dense adalah layer-layer yang akan digunakan dalam model.
+
 ![image](https://github.com/user-attachments/assets/7cced315-2246-437d-adb7-52f094876bf9)
 
 Membuat model CNN (Convolutional Neural Network) menggunakan Sequential, di mana layer-layer akan ditambahkan satu per satu.
+
 ![image](https://github.com/user-attachments/assets/818a4e70-d2de-4d2b-beab-ba13d40fd92d)
 
 Menambahkan layer convolution pertama dengan 32 filter, ukuran kernel 3x3, dan fungsi aktivasi ReLU. input_shape adalah ukuran input gambar yang diharapkan (128x128 piksel dengan 3 channel warna RGB).
+
 ![image](https://github.com/user-attachments/assets/4b9e93bd-d354-49d7-82c0-60c5dc7efa25)
 
 Menambahkan layer pooling untuk mengurangi dimensi gambar dan menjaga fitur penting. pool_size (2x2) berarti mengurangi ukuran gambar dengan mengambil nilai maksimum di dalam jendela 2x2. Menambahkan layer convolution kedua dengan konfigurasi yang sama seperti layer pertama (32 filter, ukuran kernel 3x3) dan layer pooling 2x2.
@@ -32,6 +35,7 @@ Menambahkan layer pooling untuk mengurangi dimensi gambar dan menjaga fitur pent
 ![image](https://github.com/user-attachments/assets/8820bad4-e4be-4d23-a768-8a780e0a0d58)
 
 Meratakan hasil dari layer sebelumnya menjadi satu vektor yang panjang untuk memasukkannya ke dalam jaringan saraf fully connected.
+
 ![image](https://github.com/user-attachments/assets/7e9875e5-8f56-4285-af6b-974cb5bc6228)
 
 Menambahkan dua layer fully connected:
