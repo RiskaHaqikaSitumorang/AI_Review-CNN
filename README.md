@@ -1,6 +1,6 @@
 # Review CNN serta penjelsan code dan output pada link 2 dan 3
 
-## Deep Learning: Convolutional Neural Networks [link1](https://www.megabagus.id/deep-learning-convolutional-neural-networks/)
+## [[1]](https://www.megabagus.id/deep-learning-convolutional-neural-networks/) Deep Learning: Convolutional Neural Networks 
 
 Convolutional Neural Network (CNN) adalah jenis jaringan saraf tiruan yang digunakan untuk pengolahan data berbentuk gambar atau video. CNN bekerja dengan cara mengekstrak fitur dari gambar melalui proses yang disebut convolution, di mana gambar diproses menggunakan filter atau feature detector untuk mendeteksi pola-pola tertentu, seperti garis, sudut, atau bentuk. Proses ini diikuti dengan activation function seperti ReLU untuk mengurangi linearitas data, serta max pooling untuk mempertahankan fitur yang paling penting dan mengurangi dimensi gambar.
 #### Penerapan CNN di Dunia Nyata:
@@ -10,7 +10,7 @@ Convolutional Neural Network (CNN) adalah jenis jaringan saraf tiruan yang digun
 1. CNN meniru cara manusia mengenali objek visual dengan proses training, yaitu mempelajari dari dataset gambar yang diberikan, sehingga mampu membedakan objek (misalnya, kucing vs. anjing).
 2. Tingkat akurasi CNN tergantung pada kualitas dataset yang digunakan. Gambar yang kurang jelas bisa menurunkan akurasi prediksi.
 
-## Deep Learning: Convolutional Neural Networks (aplikasi) [link2](https://www.megabagus.id/deep-learning-convolutional-neural-networks-aplikasi)
+## [[2]](https://www.megabagus.id/deep-learning-convolutional-neural-networks-aplikasi) Deep Learning: Convolutional Neural Networks (aplikasi) 
 
 Tujuannya adalah melakukan klasifikasi gambar kucing dan anjing. Dataset yang digunakan terdiri dari 8,000 gambar untuk training set (4,000 gambar kucing dan 4,000 gambar anjing) dan 2,000 gambar untuk test set (1,000 gambar kucing dan 1,000 gambar anjing). 
 
@@ -79,7 +79,7 @@ Menggunakan model yang telah dilatih untuk memprediksi apakah gambar termasuk ka
 3. Terdapat 79 gambar yang diprediksi sebagai "cat".
 
 
-## Modul Lab Machine Learning #6  [link3](https://modul-praktikum-ai.vercel.app/Materi/4-convolutional-neural-network)
+## [[3]](https://modul-praktikum-ai.vercel.app/Materi/4-convolutional-neural-network) Modul Lab Machine Learning #6  
 Modul ini menggunakan dataset CIFAR-10, yang terdiri dari 60,000 gambar dalam 10 kelas, kita dapat melatih model CNN untuk mengenali gambar dan kemudian membuat prediksi berdasarkan gambar yang belum dilihat sebelumnya.
 
 ## 🧩 Penjelasan Kode
